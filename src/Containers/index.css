@@ -1,7 +1,7 @@
 body{
   margin: 0;
   box-sizing: border-box;
-  height: auto;
+  height: 100vh;
   width: auto;
   background: linear-gradient(180deg, rgba(98,74,255,1) 0%, rgb(70, 1, 160) 54%); 
   font-family: montserrat;
