@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  height: auto;
+  width: auto;
+  background: linear-gradient(180deg, rgba(98,74,255,1) 0%, rgb(70, 1, 160) 54%); 
+  font-family: montserrat;
+}
+
+h1{
+  font-family: Montserrat;
+  color: white;
+}
+input{
+  outline: none;
+  text-align: center;
+  transition: all 0.3s;
+}
+input:focus{
+  transform: scale(1.1);
+  caret-color: blue;
+}
+input::placeholder{
+  text-align: center;
+}
